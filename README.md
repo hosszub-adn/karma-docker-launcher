@@ -37,7 +37,7 @@ module.exports = function(config) {
       DockerFirefoxHeadless: {
         base: 'Docker',
         // Use your favorite Firefox headless image, e.g.:
-        image: 'rkuzsma/firefox-headless-stable:latest'
+        image: 'rkuzsma/firefox-headless-stable:latest',
         containerCommand: 'firefox ' +
           '-p headless ' +
           '-no-remote ' +
